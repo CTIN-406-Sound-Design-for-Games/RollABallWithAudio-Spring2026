@@ -4,12 +4,18 @@
 		<WorkUnit Name="SFX" ID="{FE90B8E6-4299-46B5-810D-A9202F03B6F5}" PersistMode="Standalone">
 			<ChildrenList>
 				<PropertyContainer Name="SFX" ID="{2F63829C-FB4E-49E1-A2DF-672080F6D6E6}" ShortID="660170932">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="ATT_Default" ID="{E1D50FD3-B26F-44AF-8E09-EE65A7325917}" WorkUnitID="{83696DC9-02DA-4865-8C99-E368D1467A9F}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{643F6C9F-2059-4EAD-851E-559328C22ED8}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{71DB62C3-935D-4CFD-99A6-525DCABCC8C0}"/>
+							<ObjectRef Name="SFX" ID="{45A76757-8D80-4900-BDE9-39B08F2316EF}" WorkUnitID="{71DB62C3-935D-4CFD-99A6-525DCABCC8C0}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -113,7 +119,13 @@
 																<XPos>0</XPos>
 																<YPos>-200</YPos>
 																<Flags>5</Flags>
-																<SegmentShape>Exp1</SegmentShape>
+																<SegmentShape>Log1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>1.96552</XPos>
+																<YPos>-12</YPos>
+																<Flags>0</Flags>
+																<SegmentShape>Log1</SegmentShape>
 															</Point>
 															<Point>
 																<XPos>15</XPos>
@@ -200,6 +212,9 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="UI_Win" ID="{E7C975BB-2D8A-4F9A-989F-5866B26CAA6F}" ShortID="394225126">
+							<PropertyList>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{643F6C9F-2059-4EAD-851E-559328C22ED8}"/>
@@ -222,6 +237,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="IMP_Crate" ID="{930951B8-56E4-4394-B4B7-31779703A218}" ShortID="504403421">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{643F6C9F-2059-4EAD-851E-559328C22ED8}"/>

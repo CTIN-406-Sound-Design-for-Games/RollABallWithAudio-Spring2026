@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{DC4AAEF4-0559-425C-8DF5-708819E6C3DC}",
     "Language": "SFX",
-    "Hash": "{1395E245-B25F-0AF5-372D-D5E534A02DE2}",
+    "Hash": "{96E55286-7125-D0E6-583A-4EA39A039FD5}",
     "ObjectPath": "Play_AMB_Forest_LP",
     "ShortName": "Play_AMB_Forest_LP",
     "Path": "Event/Play_AMB_Forest_LP.bnk",
@@ -38,9 +38,17 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3045223865",
+      "Name": "RTPC_PlayerDistance",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\RTPC_PlayerDistance",
+      "GUID": "{54F9DAD1-1129-4653-A083-14A173876A99}"
+     }
     ]
    }
   ],
-  "FileHash": "{E47547CC-CD03-50EA-3272-C6CC70C3C7A7}"
+  "FileHash": "{846BEB0E-D102-45A8-0D81-CE7A739BFD5C}"
  }
 }

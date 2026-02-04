@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{B1987ED9-67EF-4D78-81FC-24E8521CD9A7}",
     "Language": "SFX",
-    "Hash": "{77DA21AD-3F72-1C4E-313B-5EA36EB25D0E}",
+    "Hash": "{72AE0314-3F39-9C37-46B0-302D490790E8}",
     "ObjectPath": "Play_AMB_City_LP",
     "ShortName": "Play_AMB_City_LP",
     "Path": "Event/Play_AMB_City_LP.bnk",
@@ -38,9 +38,17 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3045223865",
+      "Name": "RTPC_PlayerDistance",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\RTPC_PlayerDistance",
+      "GUID": "{54F9DAD1-1129-4653-A083-14A173876A99}"
+     }
     ]
    }
   ],
-  "FileHash": "{ED6EB7FB-6C1D-151E-5CA8-DEDEB78C048C}"
+  "FileHash": "{C957F27A-9609-F467-FBC2-4CB055E64389}"
  }
 }

@@ -20,12 +20,16 @@ namespace AK
         static const AkUniqueID PLAY_IMP_WALL = 2242885151U;
         static const AkUniqueID PLAY_MVT_BALLROLLING_LP = 4193143717U;
         static const AkUniqueID PLAY_UI_WIN = 2823495579U;
+        static const AkUniqueID STOP_AMB_CITY_LP = 2646299865U;
+        static const AkUniqueID STOP_AMB_FOREST_LP = 705314987U;
+        static const AkUniqueID STOP_AMB_INTERIOR_LP = 2159561926U;
     } // namespace EVENTS
 
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID RTPC_BALLSPEED = 3709966389U;
         static const AkUniqueID RTPC_COLLISIONVELOCITYNORMALIZED = 1573010119U;
+        static const AkUniqueID RTPC_PLAYERDISTANCE = 3045223865U;
     } // namespace GAME_PARAMETERS
 
     namespace BUSSES

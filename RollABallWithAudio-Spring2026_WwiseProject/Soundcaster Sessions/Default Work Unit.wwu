@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{1B95EBC6-EBE6-4F8A-B379-087CD3D07046}" SchemaVersion="133">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{1B95EBC6-EBE6-4F8A-B379-087CD3D07046}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{1B95EBC6-EBE6-4F8A-B379-087CD3D07046}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="SC_Default" ID="{B48D6B40-0C34-42E8-967B-442F16DAAF26}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_AMB_City_LP" ID="{B1987ED9-67EF-4D78-81FC-24E8521CD9A7}" WorkUnitID="{855CD7A9-2A00-4C7C-977B-D5089743EB2D}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_AMB_City_LP" ID="{A281C24E-2387-4A3A-8923-2358EEEAA2B7}" WorkUnitID="{855CD7A9-2A00-4C7C-977B-D5089743EB2D}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_AMB_Forest_LP" ID="{DC4AAEF4-0559-425C-8DF5-708819E6C3DC}" WorkUnitID="{855CD7A9-2A00-4C7C-977B-D5089743EB2D}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_AMB_Forest_LP" ID="{45BF1C13-7E82-4ACB-9B49-BB35244EA27C}" WorkUnitID="{855CD7A9-2A00-4C7C-977B-D5089743EB2D}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_AMB_Interior_LP" ID="{B0E6DE1B-65B9-4488-A7CD-041EAF33B6C1}" WorkUnitID="{855CD7A9-2A00-4C7C-977B-D5089743EB2D}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_AMB_Interior_LP" ID="{545D9D05-FE29-47C4-AEDC-23A33AA42F80}" WorkUnitID="{855CD7A9-2A00-4C7C-977B-D5089743EB2D}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+					</ModuleList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

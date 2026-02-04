@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "2159561926",
+    "Type": "Event",
+    "GUID": "{545D9D05-FE29-47C4-AEDC-23A33AA42F80}",
+    "Language": "SFX",
+    "Hash": "{EFF030E9-3DC6-0F47-40CA-FA3CDC296E72}",
+    "ObjectPath": "Stop_AMB_Interior_LP",
+    "ShortName": "Stop_AMB_Interior_LP",
+    "Path": "Event/Stop_AMB_Interior_LP.bnk",
+    "Events": [
+     {
+      "Id": "2159561926",
+      "Name": "Stop_AMB_Interior_LP",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_AMB_Interior_LP",
+      "GUID": "{545D9D05-FE29-47C4-AEDC-23A33AA42F80}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{7F606E5C-E9FD-6146-EC3F-F223AC9BB0C8}"
+ }
+}

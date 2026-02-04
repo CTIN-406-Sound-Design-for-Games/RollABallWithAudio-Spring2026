@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{0F42685F-BEBF-442F-BB92-4CD93FBAC5A2}",
     "Language": "SFX",
-    "Hash": "{E7642582-522D-F467-DE51-32F1CED9A239}",
+    "Hash": "{910B08A6-5030-9B2C-53D2-7995D03C6821}",
     "ObjectPath": "Play_IMP_Wall",
     "ShortName": "Play_IMP_Wall",
     "Path": "Event/Play_IMP_Wall.bnk",
@@ -31,6 +31,7 @@
       "Name": "Play_IMP_Wall",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_IMP_Wall",
       "GUID": "{0F42685F-BEBF-442F-BB92-4CD93FBAC5A2}",
+      "MaxAttenuation": "30",
       "DurationType": "OneShot",
       "DurationMin": "2",
       "DurationMax": "2",
@@ -51,6 +52,6 @@
     ]
    }
   ],
-  "FileHash": "{E5EDD0C5-4B94-4A6A-35D1-B6451753D615}"
+  "FileHash": "{75574109-E933-8087-9DD0-EA3B2E995659}"
  }
 }

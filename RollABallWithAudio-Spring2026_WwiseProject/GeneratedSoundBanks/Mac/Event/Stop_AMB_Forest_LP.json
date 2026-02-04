@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "705314987",
+    "Type": "Event",
+    "GUID": "{45BF1C13-7E82-4ACB-9B49-BB35244EA27C}",
+    "Language": "SFX",
+    "Hash": "{2AB1D1E0-7A4A-82D8-EBBD-68D2E3963E72}",
+    "ObjectPath": "Stop_AMB_Forest_LP",
+    "ShortName": "Stop_AMB_Forest_LP",
+    "Path": "Event/Stop_AMB_Forest_LP.bnk",
+    "Events": [
+     {
+      "Id": "705314987",
+      "Name": "Stop_AMB_Forest_LP",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_AMB_Forest_LP",
+      "GUID": "{45BF1C13-7E82-4ACB-9B49-BB35244EA27C}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{A8DB02C8-EC21-F8A7-1170-6F26F029BCDB}"
+ }
+}

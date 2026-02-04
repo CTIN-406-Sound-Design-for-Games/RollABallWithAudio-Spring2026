@@ -4,12 +4,19 @@
 		<WorkUnit Name="AMB" ID="{F9ADC011-F7F0-404E-BD1C-8137E2B8B39B}" PersistMode="Standalone">
 			<ChildrenList>
 				<PropertyContainer Name="AMB" ID="{F48D15B3-5CC0-4F44-824C-6D2A2AF5417D}" ShortID="417170395">
+					<PropertyList>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<ValueList>
+								<Value>-3</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{643F6C9F-2059-4EAD-851E-559328C22ED8}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{71DB62C3-935D-4CFD-99A6-525DCABCC8C0}"/>
+							<ObjectRef Name="AMB" ID="{F5C32BE7-375C-46DC-8F0B-41912AAC4144}" WorkUnitID="{71DB62C3-935D-4CFD-99A6-525DCABCC8C0}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -56,6 +63,47 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<RTPC Name="" ID="{058B81CF-1270-4734-8995-EEB22A5FC4C4}" ShortID="475542808">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="RTPC_PlayerDistance" ID="{54F9DAD1-1129-4653-A083-14A173876A99}" WorkUnitID="{E4349363-7E3F-4926-BE59-96C14C2BE6D5}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{77468077-D328-4387-B60A-95B5A93F8C72}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Exp1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>6</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</ObjectList>
+							</ObjectLists>
 							<ActiveSourceList>
 								<ActiveSource Name="AMB_City_LP" ID="{B156F59C-491B-4820-A1D2-7477EA275FE2}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -81,6 +129,47 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<RTPC Name="" ID="{E005BABA-8738-41CF-B76F-8E6899F246F5}" ShortID="511051339">
+										<PropertyList>
+											<Property Name="PropertyName" Type="string" Value="Volume"/>
+										</PropertyList>
+										<ReferenceList>
+											<Reference Name="ControlInput">
+												<ObjectRef Name="RTPC_PlayerDistance" ID="{54F9DAD1-1129-4653-A083-14A173876A99}" WorkUnitID="{E4349363-7E3F-4926-BE59-96C14C2BE6D5}"/>
+											</Reference>
+											<Reference Name="Curve">
+												<Custom>
+													<Curve Name="" ID="{087716CC-3D45-46D7-A819-F1E2A8A86871}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+																<SegmentShape>Exp1</SegmentShape>
+															</Point>
+															<Point>
+																<XPos>6</XPos>
+																<YPos>-200</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-200</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</RTPC>
+								</ObjectList>
+							</ObjectLists>
 							<ActiveSourceList>
 								<ActiveSource Name="AMB_Forest_LP" ID="{5B94FBB5-6F10-450F-8CC9-A1DA0DC87A89}" Platform="Linked"/>
 							</ActiveSourceList>

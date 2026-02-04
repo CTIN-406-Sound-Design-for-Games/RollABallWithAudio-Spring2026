@@ -6,6 +6,10 @@
 				<Event Name="Play_AMB_City_LP" ID="{B1987ED9-67EF-4D78-81FC-24E8521CD9A7}">
 					<ChildrenList>
 						<Action Name="" ID="{9DD5A584-D5CB-4F6D-8C6F-846053368EAA}" ShortID="167467338">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="AMB_City_LP" ID="{30484E89-EEA2-4E33-94FB-F0CD94ABADAB}" WorkUnitID="{F9ADC011-F7F0-404E-BD1C-8137E2B8B39B}"/>
@@ -17,6 +21,10 @@
 				<Event Name="Play_AMB_Forest_LP" ID="{DC4AAEF4-0559-425C-8DF5-708819E6C3DC}">
 					<ChildrenList>
 						<Action Name="" ID="{02BBE147-53EB-41D8-8404-5CA1AA8697A4}" ShortID="275247096">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="AMB_Forest_LP" ID="{8C44E243-DCB2-4723-B5A9-25AFFF4F537D}" WorkUnitID="{F9ADC011-F7F0-404E-BD1C-8137E2B8B39B}"/>
@@ -28,6 +36,10 @@
 				<Event Name="Play_AMB_Interior_LP" ID="{B0E6DE1B-65B9-4488-A7CD-041EAF33B6C1}">
 					<ChildrenList>
 						<Action Name="" ID="{FCAE5BD0-9EF5-4888-A1D1-89FD3B6DF5FB}" ShortID="502975692">
+							<PropertyList>
+								<Property Name="FadeInCurve" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="AMB_Interior_LP" ID="{BD96AB26-C413-4BFE-92B7-14762EA2DB20}" WorkUnitID="{F9ADC011-F7F0-404E-BD1C-8137E2B8B39B}"/>
@@ -75,6 +87,54 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="UI_Win" ID="{E7C975BB-2D8A-4F9A-989F-5866B26CAA6F}" WorkUnitID="{FE90B8E6-4299-46B5-810D-A9202F03B6F5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_AMB_City_LP" ID="{A281C24E-2387-4A3A-8923-2358EEEAA2B7}">
+					<ChildrenList>
+						<Action Name="" ID="{0398CE1E-7FE0-41D7-8055-C88F539A4AE5}" ShortID="903307506">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_City_LP" ID="{30484E89-EEA2-4E33-94FB-F0CD94ABADAB}" WorkUnitID="{F9ADC011-F7F0-404E-BD1C-8137E2B8B39B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_AMB_Forest_LP" ID="{45BF1C13-7E82-4ACB-9B49-BB35244EA27C}">
+					<ChildrenList>
+						<Action Name="" ID="{11E31EE7-4AF0-4640-BCF1-9DBBBA21499F}" ShortID="464595592">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Forest_LP" ID="{8C44E243-DCB2-4723-B5A9-25AFFF4F537D}" WorkUnitID="{F9ADC011-F7F0-404E-BD1C-8137E2B8B39B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_AMB_Interior_LP" ID="{545D9D05-FE29-47C4-AEDC-23A33AA42F80}">
+					<ChildrenList>
+						<Action Name="" ID="{8DD9204C-478C-4F0D-B275-2F9CF9A14D5B}" ShortID="827526303">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Interior_LP" ID="{BD96AB26-C413-4BFE-92B7-14762EA2DB20}" WorkUnitID="{F9ADC011-F7F0-404E-BD1C-8137E2B8B39B}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

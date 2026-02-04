@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{AFD7F899-5D4D-42CB-AA98-6FAECD34CD03}",
     "Language": "SFX",
-    "Hash": "{22A567B6-2A2C-AAD3-11AE-A3A2BFB0C1C7}",
+    "Hash": "{D22C578E-294D-6779-8EFC-04D8DA83115B}",
     "ObjectPath": "Play_IMP_Crate",
     "ShortName": "Play_IMP_Crate",
     "Path": "Event/Play_IMP_Crate.bnk",
@@ -31,6 +31,7 @@
       "Name": "Play_IMP_Crate",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_IMP_Crate",
       "GUID": "{AFD7F899-5D4D-42CB-AA98-6FAECD34CD03}",
+      "MaxAttenuation": "30",
       "DurationType": "OneShot",
       "DurationMin": "3",
       "DurationMax": "3",
@@ -43,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{9CC0A60D-E484-BC15-8391-E06727B4F78B}"
+  "FileHash": "{CAB390D8-BA62-62FE-0269-2E16C1808FF5}"
  }
 }
