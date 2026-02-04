@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "38705144",
+    "Type": "Event",
+    "GUID": "{AFD7F899-5D4D-42CB-AA98-6FAECD34CD03}",
+    "Language": "SFX",
+    "Hash": "{22A567B6-2A2C-AAD3-11AE-A3A2BFB0C1C7}",
+    "ObjectPath": "Play_IMP_Crate",
+    "ShortName": "Play_IMP_Crate",
+    "Path": "Event/Play_IMP_Crate.bnk",
+    "Media": [
+     {
+      "Id": "133216106",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "IMP_Crate.wav",
+      "Path": "Media/133216106.wem",
+      "CachePath": "EE/{EE9337D3-0B54-6CA3-2A84-7ACB911E5245}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "38705144",
+      "Name": "Play_IMP_Crate",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_IMP_Crate",
+      "GUID": "{AFD7F899-5D4D-42CB-AA98-6FAECD34CD03}",
+      "DurationType": "OneShot",
+      "DurationMin": "3",
+      "DurationMax": "3",
+      "MediaRefs": [
+       {
+        "Id": "133216106"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{9CC0A60D-E484-BC15-8391-E06727B4F78B}"
+ }
+}

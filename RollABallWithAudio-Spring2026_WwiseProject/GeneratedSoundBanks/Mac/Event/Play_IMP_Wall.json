@@ -1,0 +1,56 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "2242885151",
+    "Type": "Event",
+    "GUID": "{0F42685F-BEBF-442F-BB92-4CD93FBAC5A2}",
+    "Language": "SFX",
+    "Hash": "{E7642582-522D-F467-DE51-32F1CED9A239}",
+    "ObjectPath": "Play_IMP_Wall",
+    "ShortName": "Play_IMP_Wall",
+    "Path": "Event/Play_IMP_Wall.bnk",
+    "Media": [
+     {
+      "Id": "240125134",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "IMP_Wall.wav",
+      "Path": "Media/240125134.wem",
+      "CachePath": "0C/{0C50D8E7-7D3E-BAAD-DCB3-53CDE4B7214D}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2242885151",
+      "Name": "Play_IMP_Wall",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_IMP_Wall",
+      "GUID": "{0F42685F-BEBF-442F-BB92-4CD93FBAC5A2}",
+      "DurationType": "OneShot",
+      "DurationMin": "2",
+      "DurationMax": "2",
+      "MediaRefs": [
+       {
+        "Id": "240125134"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1573010119",
+      "Name": "RTPC_CollisionVelocityNormalized",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\RTPC_CollisionVelocityNormalized",
+      "GUID": "{DEA5559E-7A9A-4374-82DE-0688B8BC50BC}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{E5EDD0C5-4B94-4A6A-35D1-B6451753D615}"
+ }
+}

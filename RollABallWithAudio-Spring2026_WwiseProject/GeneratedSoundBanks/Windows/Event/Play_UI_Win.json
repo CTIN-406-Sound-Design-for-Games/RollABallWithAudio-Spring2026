@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "2823495579",
+    "Type": "Event",
+    "GUID": "{76CAD953-B41E-4500-95BF-78DE988585CF}",
+    "Language": "SFX",
+    "Hash": "{64A36933-8F59-5C9A-9C3D-45AF45C7CE07}",
+    "ObjectPath": "Play_UI_Win",
+    "ShortName": "Play_UI_Win",
+    "Path": "Event/Play_UI_Win.bnk",
+    "Media": [
+     {
+      "Id": "1061593228",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "UI_Win.wav",
+      "Path": "Media/1061593228.wem",
+      "CachePath": "D7/{D7EED9BE-56A5-EB74-9E65-15698C25D27C}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2823495579",
+      "Name": "Play_UI_Win",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_UI_Win",
+      "GUID": "{76CAD953-B41E-4500-95BF-78DE988585CF}",
+      "DurationType": "OneShot",
+      "DurationMin": "5",
+      "DurationMax": "5",
+      "MediaRefs": [
+       {
+        "Id": "1061593228"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{5E9FCA93-DB6B-DABC-0A74-22DA61A752F0}"
+ }
+}

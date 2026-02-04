@@ -1,0 +1,36 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "RollABallWithAudio-Spring2026_WwiseProject",
+   "GUID": "{D5091EF0-8CBB-4F5A-8BB8-14E4BE4CD3E8}",
+   "Generator": "2025.1.4.9062"
+  },
+  "CacheRoot": "../.cache",
+  "Platforms": [
+   {
+    "Name": "Mac",
+    "GUID": "{AB42678A-741A-456D-BCE7-DB6D7FBDA216}",
+    "BasePlatform": "Mac",
+    "BasePlatformGUID": "{9C6217D5-DD11-4795-87C1-6CE02853C540}",
+    "Path": "Mac"
+   },
+   {
+    "Name": "Windows",
+    "GUID": "{92C3ED46-54E3-483E-ABC2-D7BD87D2581B}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{FF236951-FE58-40B2-B8DB-F119EF444EBC}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{7FB3C7A4-29CE-BCF5-64EC-A070ACA6A928}"
+ }
+}

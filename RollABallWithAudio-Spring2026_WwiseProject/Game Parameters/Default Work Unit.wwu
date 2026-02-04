@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{E4349363-7E3F-4926-BE59-96C14C2BE6D5}" SchemaVersion="133">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{E4349363-7E3F-4926-BE59-96C14C2BE6D5}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{E4349363-7E3F-4926-BE59-96C14C2BE6D5}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="RTPC_BallSpeed" ID="{607292C3-8516-4539-8791-F7248EDB4093}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="15"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_CollisionVelocityNormalized" ID="{DEA5559E-7A9A-4374-82DE-0688B8BC50BC}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

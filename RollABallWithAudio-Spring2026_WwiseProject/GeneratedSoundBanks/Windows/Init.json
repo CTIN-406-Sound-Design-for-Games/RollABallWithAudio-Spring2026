@@ -1,0 +1,75 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "Type": "User",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "{FBA4814B-64EF-9327-FD07-3147E25EC9DC}",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "Plugins": {
+     "AudioDevices": [
+      {
+       "Id": "2317455096",
+       "Name": "No_Output",
+       "ObjectPath": "\\Devices\\Default Work Unit\\No_Output",
+       "GUID": "{F83A952D-A675-4AD5-B7F4-C52A369C6D40}",
+       "LibName": "No Output",
+       "LibId": "11862023"
+      },
+      {
+       "Id": "3859886410",
+       "Name": "System",
+       "ObjectPath": "\\Devices\\Default Work Unit\\System",
+       "GUID": "{AE2B2A50-36ED-4DE1-A7CB-E6AB38C8DA61}",
+       "LibName": "System",
+       "LibId": "11403271"
+      }
+     ]
+    },
+    "Busses": [
+     {
+      "Id": "393239870",
+      "Name": "SFX",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\SFX",
+      "GUID": "{45A76757-8D80-4900-BDE9-39B08F2316EF}"
+     },
+     {
+      "Id": "1117531639",
+      "Name": "AMB",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus\\AMB",
+      "GUID": "{F5C32BE7-375C-46DC-8F0B-41912AAC4144}"
+     },
+     {
+      "Id": "2246998526",
+      "Name": "Main Audio Bus",
+      "ObjectPath": "\\Busses\\Default Work Unit\\Main Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1573010119",
+      "Name": "RTPC_CollisionVelocityNormalized",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\RTPC_CollisionVelocityNormalized",
+      "GUID": "{DEA5559E-7A9A-4374-82DE-0688B8BC50BC}"
+     },
+     {
+      "Id": "3709966389",
+      "Name": "RTPC_BallSpeed",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\RTPC_BallSpeed",
+      "GUID": "{607292C3-8516-4539-8791-F7248EDB4093}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{CAD0A2B4-4F8C-29E5-825A-4307FAFB77F0}"
+ }
+}

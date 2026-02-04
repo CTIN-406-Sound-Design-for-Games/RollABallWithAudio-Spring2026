@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4193143717	Play_MVT_BallRolling_LP			\Default Work Unit\Play_MVT_BallRolling_LP	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3709966389	RTPC_BallSpeed			\Default Work Unit\RTPC_BallSpeed	
+

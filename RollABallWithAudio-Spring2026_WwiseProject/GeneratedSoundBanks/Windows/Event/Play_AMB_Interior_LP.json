@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "93749488",
+    "Type": "Event",
+    "GUID": "{B0E6DE1B-65B9-4488-A7CD-041EAF33B6C1}",
+    "Language": "SFX",
+    "Hash": "{F6E401AB-9E51-EE2B-2BD9-C0A48B26EBDF}",
+    "ObjectPath": "Play_AMB_Interior_LP",
+    "ShortName": "Play_AMB_Interior_LP",
+    "Path": "Event/Play_AMB_Interior_LP.bnk",
+    "Media": [
+     {
+      "Id": "317594436",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Interior_LP.wav",
+      "Path": "Media/317594436.wem",
+      "CachePath": "AA/{AAB3AC82-0841-C6AA-AA59-695FCDFCB6DF}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "93749488",
+      "Name": "Play_AMB_Interior_LP",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_AMB_Interior_LP",
+      "GUID": "{B0E6DE1B-65B9-4488-A7CD-041EAF33B6C1}",
+      "DurationType": "OneShot",
+      "DurationMin": "26",
+      "DurationMax": "26",
+      "MediaRefs": [
+       {
+        "Id": "317594436"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{04754DD7-0AC7-D8A6-7997-816518BBEF73}"
+ }
+}

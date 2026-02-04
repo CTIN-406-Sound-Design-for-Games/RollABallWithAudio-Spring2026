@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "584628495",
+    "Type": "Event",
+    "GUID": "{B1987ED9-67EF-4D78-81FC-24E8521CD9A7}",
+    "Language": "SFX",
+    "Hash": "{77DA21AD-3F72-1C4E-313B-5EA36EB25D0E}",
+    "ObjectPath": "Play_AMB_City_LP",
+    "ShortName": "Play_AMB_City_LP",
+    "Path": "Event/Play_AMB_City_LP.bnk",
+    "Media": [
+     {
+      "Id": "960093448",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_City_LP.wav",
+      "Path": "Media/960093448.wem",
+      "CachePath": "B6/{B60A7DEA-FAF7-DE41-56FA-B661A7882440}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "584628495",
+      "Name": "Play_AMB_City_LP",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_AMB_City_LP",
+      "GUID": "{B1987ED9-67EF-4D78-81FC-24E8521CD9A7}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "960093448"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{ED6EB7FB-6C1D-151E-5CA8-DEDEB78C048C}"
+ }
+}

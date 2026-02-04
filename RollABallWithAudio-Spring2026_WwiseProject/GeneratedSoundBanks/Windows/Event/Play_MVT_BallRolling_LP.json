@@ -1,0 +1,54 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "4193143717",
+    "Type": "Event",
+    "GUID": "{697BA979-B3CD-4DBA-ACC2-6F746486E89A}",
+    "Language": "SFX",
+    "Hash": "{982DED8C-CA0C-34CA-BED5-ECFE2805D837}",
+    "ObjectPath": "Play_MVT_BallRolling_LP",
+    "ShortName": "Play_MVT_BallRolling_LP",
+    "Path": "Event/Play_MVT_BallRolling_LP.bnk",
+    "Media": [
+     {
+      "Id": "845391039",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "MVT_BallRolling_LP.wav",
+      "Path": "Media/845391039.wem",
+      "CachePath": "1E/{1EFF8BBB-4593-6171-BA8B-DC131140C829}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "4193143717",
+      "Name": "Play_MVT_BallRolling_LP",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_MVT_BallRolling_LP",
+      "GUID": "{697BA979-B3CD-4DBA-ACC2-6F746486E89A}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "845391039"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3709966389",
+      "Name": "RTPC_BallSpeed",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\RTPC_BallSpeed",
+      "GUID": "{607292C3-8516-4539-8791-F7248EDB4093}"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{D6DFFCAF-8080-9FCD-3713-FCB0FE423EBB}"
+ }
+}

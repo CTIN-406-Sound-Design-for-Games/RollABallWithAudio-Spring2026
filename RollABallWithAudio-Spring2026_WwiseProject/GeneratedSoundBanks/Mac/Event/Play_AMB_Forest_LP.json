@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "149137005",
+    "Type": "Event",
+    "GUID": "{DC4AAEF4-0559-425C-8DF5-708819E6C3DC}",
+    "Language": "SFX",
+    "Hash": "{1395E245-B25F-0AF5-372D-D5E534A02DE2}",
+    "ObjectPath": "Play_AMB_Forest_LP",
+    "ShortName": "Play_AMB_Forest_LP",
+    "Path": "Event/Play_AMB_Forest_LP.bnk",
+    "Media": [
+     {
+      "Id": "401986631",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "AMB_Forest_LP.wav",
+      "Path": "Media/401986631.wem",
+      "CachePath": "A5/{A5CC5F12-832B-F99B-01D4-982254D3B3E8}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "149137005",
+      "Name": "Play_AMB_Forest_LP",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_AMB_Forest_LP",
+      "GUID": "{DC4AAEF4-0559-425C-8DF5-708819E6C3DC}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "401986631"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{B9B25468-51EC-D656-30F9-AF0AAB4D869C}"
+ }
+}

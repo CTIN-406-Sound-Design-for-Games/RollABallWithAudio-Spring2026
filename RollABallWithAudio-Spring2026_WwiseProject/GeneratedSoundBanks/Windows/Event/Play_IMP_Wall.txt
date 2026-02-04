@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2242885151	Play_IMP_Wall			\Default Work Unit\Play_IMP_Wall	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1573010119	RTPC_CollisionVelocityNormalized			\Default Work Unit\RTPC_CollisionVelocityNormalized	
+
