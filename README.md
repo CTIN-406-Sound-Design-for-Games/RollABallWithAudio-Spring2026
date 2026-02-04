@@ -4,10 +4,22 @@ Roll-A-Ball, now with sound! For USC course CTIN 406: Sound Design for Games.
 
 Based on Unity's [Roll-A-Ball tutorial](https://learn.unity.com/project/roll-a-ball), adapting the [completed project files](https://assetstore.unity.com/packages/essentials/tutorial-projects/unity-learn-roll-a-ball-completed-project-files-urp-77198) and adding newly implemented audio.
 
+## Week 4: Middleware, Ambiences
+1. [Download the `week4-middleware-ambiences` version of the project](https://github.com/CTIN-406-Sound-Design-for-Games/RollABallWithAudio-Spring2026/archive/refs/heads/week4-middleware-ambiences.zip)
+2. The following may be helpful for **Project 1**:
+	- Unity:
+		- Assets/Scenes/Week6_Part1_Middleware.unity
+		- Assets/Scenes/Week6_Part2_Ambiences.unity
+		- Assets/Scripts/Audio/DistanceBasedAmbienceZone.cs
+		- Assets/Scripts/Audio/TriggerBasedAmbienceZone.cs
+	- Wwise:
+		- RollABallWithAudio-Spring2026_WwiseProject
+			- \Containers\SFX\SFX\AMB
+
 ## Week 3: Implementation
 
 ### Etude 3: Unity Audio Replacement
-1. [Download this project](https://github.com/CTIN-406-Sound-Design-for-Games/RollABallWithAudio-Spring2026/archive/refs/heads/week3-audio-implementation.zip)
+1. [Download the `week3-audio-implementation` version of the project](https://github.com/CTIN-406-Sound-Design-for-Games/RollABallWithAudio-Spring2026/archive/refs/heads/week3-audio-implementation.zip)
 2. **Replace all existing audio** with new sound assets that you create
 3. (Optional) **Implement new audio** where there previously was none
 	- Some ideas:
@@ -19,3 +31,4 @@ Based on Unity's [Roll-A-Ball tutorial](https://learn.unity.com/project/roll-a-b
 
 ## Dependencies
 - [Unity 6.3 LTS (6000.3.5f2)](https://unity.com/download)
+- [Wwise 2025.1.4](https://audiokinetic.com)
