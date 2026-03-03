@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{0F42685F-BEBF-442F-BB92-4CD93FBAC5A2}",
     "Language": "SFX",
-    "Hash": "{910B08A6-5030-9B2C-53D2-7995D03C6821}",
+    "Hash": "{4EA16D96-1ECD-F085-EF5F-CB1C5BB40B09}",
     "ObjectPath": "Play_IMP_Wall",
     "ShortName": "Play_IMP_Wall",
     "Path": "Event/Play_IMP_Wall.bnk",
@@ -52,6 +52,6 @@
     ]
    }
   ],
-  "FileHash": "{B8D708B1-F384-6891-0AA6-34B953FF2532}"
+  "FileHash": "{3C90B05E-7BEC-5226-2ACD-7781C7836C9F}"
  }
 }

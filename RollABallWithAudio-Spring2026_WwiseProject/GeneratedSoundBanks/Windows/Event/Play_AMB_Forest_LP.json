@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{DC4AAEF4-0559-425C-8DF5-708819E6C3DC}",
     "Language": "SFX",
-    "Hash": "{96E55286-7125-D0E6-583A-4EA39A039FD5}",
+    "Hash": "{2F52E587-668C-48A7-497C-E9DAD1973285}",
     "ObjectPath": "Play_AMB_Forest_LP",
     "ShortName": "Play_AMB_Forest_LP",
     "Path": "Event/Play_AMB_Forest_LP.bnk",
@@ -49,6 +49,6 @@
     ]
    }
   ],
-  "FileHash": "{846BEB0E-D102-45A8-0D81-CE7A739BFD5C}"
+  "FileHash": "{1C827BC5-292F-1A03-D2DD-992137F8B61E}"
  }
 }

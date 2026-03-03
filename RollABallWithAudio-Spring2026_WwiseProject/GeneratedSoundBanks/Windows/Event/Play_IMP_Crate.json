@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{AFD7F899-5D4D-42CB-AA98-6FAECD34CD03}",
     "Language": "SFX",
-    "Hash": "{D22C578E-294D-6779-8EFC-04D8DA83115B}",
+    "Hash": "{15696906-7DD4-1985-3F01-D6EA903F6EBF}",
     "ObjectPath": "Play_IMP_Crate",
     "ShortName": "Play_IMP_Crate",
     "Path": "Event/Play_IMP_Crate.bnk",
@@ -44,6 +44,6 @@
     ]
    }
   ],
-  "FileHash": "{CAB390D8-BA62-62FE-0269-2E16C1808FF5}"
+  "FileHash": "{5168299C-0300-251D-AEC4-2908CCF57A88}"
  }
 }

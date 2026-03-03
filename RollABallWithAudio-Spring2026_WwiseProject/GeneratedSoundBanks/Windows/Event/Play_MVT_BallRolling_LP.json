@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{697BA979-B3CD-4DBA-ACC2-6F746486E89A}",
     "Language": "SFX",
-    "Hash": "{EEC9E562-9F55-6514-D95C-36E97494FD5D}",
+    "Hash": "{526B866A-04A9-E7CC-71FA-77EED2DA50DF}",
     "ObjectPath": "Play_MVT_BallRolling_LP",
     "ShortName": "Play_MVT_BallRolling_LP",
     "Path": "Event/Play_MVT_BallRolling_LP.bnk",
@@ -50,6 +50,6 @@
     ]
    }
   ],
-  "FileHash": "{A103530C-AB7D-9B09-D70F-91E9ADA6BA40}"
+  "FileHash": "{07DBC06B-177F-4631-7834-4027F234803F}"
  }
 }

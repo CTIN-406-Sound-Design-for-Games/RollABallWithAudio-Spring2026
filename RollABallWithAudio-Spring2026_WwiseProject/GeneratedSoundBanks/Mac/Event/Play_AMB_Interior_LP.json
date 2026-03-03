@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{B0E6DE1B-65B9-4488-A7CD-041EAF33B6C1}",
     "Language": "SFX",
-    "Hash": "{F2A8A062-0F7F-76C8-D352-90C75B57257F}",
+    "Hash": "{B3A19C15-2BD1-EF09-F518-EFA391D1855D}",
     "ObjectPath": "Play_AMB_Interior_LP",
     "ShortName": "Play_AMB_Interior_LP",
     "Path": "Event/Play_AMB_Interior_LP.bnk",
@@ -43,6 +43,6 @@
     ]
    }
   ],
-  "FileHash": "{FB101FC7-7920-C63E-4F72-931A879635F5}"
+  "FileHash": "{E54DE03A-F043-C2E8-02E0-3D35E544540E}"
  }
 }

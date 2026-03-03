@@ -16,6 +16,7 @@ namespace AK
         static const AkUniqueID PLAY_AMB_CITY_LP = 584628495U;
         static const AkUniqueID PLAY_AMB_FOREST_LP = 149137005U;
         static const AkUniqueID PLAY_AMB_INTERIOR_LP = 93749488U;
+        static const AkUniqueID PLAY_FLY_FOOTSTEP_CONCRETE_01 = 3199699734U;
         static const AkUniqueID PLAY_IMP_CRATE = 38705144U;
         static const AkUniqueID PLAY_IMP_WALL = 2242885151U;
         static const AkUniqueID PLAY_MVT_BALLROLLING_LP = 4193143717U;
