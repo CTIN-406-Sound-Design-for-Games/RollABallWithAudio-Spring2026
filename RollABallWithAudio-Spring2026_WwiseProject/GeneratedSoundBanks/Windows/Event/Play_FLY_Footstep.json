@@ -1,0 +1,97 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "172",
+  "SoundBanks": [
+   {
+    "Id": "958544762",
+    "Type": "Event",
+    "GUID": "{AA9A8832-CFFA-419D-8611-A85386BB7041}",
+    "Language": "SFX",
+    "Hash": "{6156CF1A-5D9B-F786-F1FA-FDFEE79DAB27}",
+    "ObjectPath": "Play_FLY_Footstep",
+    "ShortName": "Play_FLY_Footstep",
+    "Path": "Event/Play_FLY_Footstep.bnk",
+    "Media": [
+     {
+      "Id": "226762636",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FLY_Footstep_Concrete_05.wav",
+      "Path": "Media/226762636.wem",
+      "CachePath": "E6/{E66F8D1B-5C71-629D-ADC9-43ABD01F864E}.wem"
+     },
+     {
+      "Id": "254026619",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FLY_Footstep_Concrete_02.wav",
+      "Path": "Media/254026619.wem",
+      "CachePath": "4B/{4B22C58B-4150-7A42-A26F-7DDEE4C62BE1}.wem"
+     },
+     {
+      "Id": "532090648",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FLY_Footstep_Concrete_03.wav",
+      "Path": "Media/532090648.wem",
+      "CachePath": "52/{5282C3D0-D0CA-6613-F8F6-85A4927CCC09}.wem"
+     },
+     {
+      "Id": "692422949",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FLY_Footstep_Concrete_04.wav",
+      "Path": "Media/692422949.wem",
+      "CachePath": "81/{816F1362-4E88-125B-39D8-3C9918D89465}.wem"
+     },
+     {
+      "Id": "1000764065",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "FLY_Footstep_Concrete_01.wav",
+      "Path": "Media/1000764065.wem",
+      "CachePath": "C0/{C0B64B98-B284-B018-BBCE-694039D19E4F}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "958544762",
+      "Name": "Play_FLY_Footstep",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_FLY_Footstep",
+      "GUID": "{AA9A8832-CFFA-419D-8611-A85386BB7041}",
+      "MaxAttenuation": "30",
+      "DurationType": "OneShot",
+      "DurationMin": "1.7817974",
+      "DurationMax": "2.244924",
+      "MediaRefs": [
+       {
+        "Id": "226762636"
+       },
+       {
+        "Id": "254026619"
+       },
+       {
+        "Id": "532090648"
+       },
+       {
+        "Id": "692422949"
+       },
+       {
+        "Id": "1000764065"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{02A9F5AF-208A-EA48-BE99-6484F592FEE7}"
+ }
+}

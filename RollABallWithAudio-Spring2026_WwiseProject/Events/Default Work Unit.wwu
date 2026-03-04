@@ -140,12 +140,12 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_FLY_Footstep_Concrete_01" ID="{AA9A8832-CFFA-419D-8611-A85386BB7041}">
+				<Event Name="Play_FLY_Footstep" ID="{AA9A8832-CFFA-419D-8611-A85386BB7041}">
 					<ChildrenList>
 						<Action Name="" ID="{B535A2E9-632D-4D3A-89BE-E647E11CC8D3}" ShortID="265755501">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="FLY_Footstep_Concrete_01" ID="{EB3C51B1-2F60-461D-89B5-43C882ABA5A2}" WorkUnitID="{F40A00ED-0DE0-4942-872B-64AAD5E081FB}"/>
+									<ObjectRef Name="FLY_Footstep_Concrete" ID="{A69DCCAD-E89F-4DCC-A2FC-2C868FF5EC70}" WorkUnitID="{F40A00ED-0DE0-4942-872B-64AAD5E081FB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
