@@ -4,6 +4,18 @@ Roll-A-Ball, now with sound! For USC course CTIN 406: Sound Design for Games.
 
 Based on Unity's [Roll-A-Ball tutorial](https://learn.unity.com/project/roll-a-ball), adapting the [completed project files](https://assetstore.unity.com/packages/essentials/tutorial-projects/unity-learn-roll-a-ball-completed-project-files-urp-77198) and adding newly implemented audio.
 
+## Week 8: Dynamically Driven Audio, Footsteps
+1. [Download the `week8-dynamically-driven-audio-footsteps` version of the project](https://github.com/CTIN-406-Sound-Design-for-Games/RollABallWithAudio-Spring2026/archive/refs/heads/week8-dynamically-driven-audio-footsteps.zip)
+2. The following may be helpful for **Project 2**:
+	- Unity:
+	    - Assets/Scripts/Audio/Player/PlayerMovementAudioComponent.cs
+	    - Assets/Scripts/Audio/Player/FirstPersonFootstepAudioTrigger.cs
+	    - Assets/Scenes/Week8_Footsteps_FirstPerson.unity
+	    - Assets/Scenes/Week8_Footsteps_ThirdPerson.unity
+	- Wwise:
+		- \Containers\Default Work Unit\SFX\FLY\FLY_Footstep
+		- \Switches\Default Work Unit\SWI_FootstepMaterial
+
 ## Week 4: Middleware, Ambiences
 1. [Download the `week4-middleware-ambiences` version of the project](https://github.com/CTIN-406-Sound-Design-for-Games/RollABallWithAudio-Spring2026/archive/refs/heads/week4-middleware-ambiences.zip)
 2. The following may be helpful for **Project 1**:
