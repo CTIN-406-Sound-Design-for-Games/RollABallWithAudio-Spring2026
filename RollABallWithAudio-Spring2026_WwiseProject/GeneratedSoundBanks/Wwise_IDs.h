@@ -26,6 +26,21 @@ namespace AK
         static const AkUniqueID STOP_AMB_INTERIOR_LP = 2159561926U;
     } // namespace EVENTS
 
+    namespace SWITCHES
+    {
+        namespace SWI_FOOTSTEPMATERIAL
+        {
+            static const AkUniqueID GROUP = 3045844422U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID CONCRETE = 841620460U;
+                static const AkUniqueID GRASS = 4248645337U;
+            } // namespace SWITCH
+        } // namespace SWI_FOOTSTEPMATERIAL
+
+    } // namespace SWITCHES
+
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID RTPC_BALLSPEED = 3709966389U;

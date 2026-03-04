@@ -73,9 +73,31 @@
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\RTPC_BallSpeed",
       "GUID": "{607292C3-8516-4539-8791-F7248EDB4093}"
      }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "3045844422",
+      "Name": "SWI_FootstepMaterial",
+      "ObjectPath": "\\Switches\\Default Work Unit\\SWI_FootstepMaterial",
+      "GUID": "{3448C162-FDC3-49C4-92B3-60E3C102B40E}",
+      "Switches": [
+       {
+        "Id": "841620460",
+        "Name": "Concrete",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SWI_FootstepMaterial\\Concrete",
+        "GUID": "{E0D8B601-792D-4FF1-B582-22CF60DF1F3E}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SWI_FootstepMaterial\\Grass",
+        "GUID": "{EA5EAB4A-3399-4415-B1D8-05381CF3525E}"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{D7241D6B-A3CF-CE15-C1FC-43BE7D69495B}"
+  "FileHash": "{342F5330-A358-B7F1-928D-0513750A26A8}"
  }
 }

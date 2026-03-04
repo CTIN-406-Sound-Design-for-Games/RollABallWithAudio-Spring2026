@@ -145,7 +145,7 @@
 						<Action Name="" ID="{B535A2E9-632D-4D3A-89BE-E647E11CC8D3}" ShortID="265755501">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="FLY_Footstep_Concrete" ID="{A69DCCAD-E89F-4DCC-A2FC-2C868FF5EC70}" WorkUnitID="{F40A00ED-0DE0-4942-872B-64AAD5E081FB}"/>
+									<ObjectRef Name="FLY_Footstep" ID="{7DD90DB7-BC8D-423B-95A3-2ED85BC19E6F}" WorkUnitID="{F40A00ED-0DE0-4942-872B-64AAD5E081FB}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
