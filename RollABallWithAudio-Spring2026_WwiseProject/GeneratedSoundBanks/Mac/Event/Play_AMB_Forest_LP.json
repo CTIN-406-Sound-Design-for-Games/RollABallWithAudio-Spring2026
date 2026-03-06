@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{DC4AAEF4-0559-425C-8DF5-708819E6C3DC}",
     "Language": "SFX",
-    "Hash": "{96E55286-7125-D0E6-583A-4EA39A039FD5}",
+    "Hash": "{EEDC118B-F1A0-20F8-49A3-C6CE6AFD44B7}",
     "ObjectPath": "Play_AMB_Forest_LP",
     "ShortName": "Play_AMB_Forest_LP",
     "Path": "Event/Play_AMB_Forest_LP.bnk",
@@ -31,6 +31,7 @@
       "Name": "Play_AMB_Forest_LP",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_AMB_Forest_LP",
       "GUID": "{DC4AAEF4-0559-425C-8DF5-708819E6C3DC}",
+      "MaxAttenuation": "30",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -49,6 +50,6 @@
     ]
    }
   ],
-  "FileHash": "{5B7BEA2A-E1B9-D8F6-1AF9-7974C6DB12C2}"
+  "FileHash": "{129E7502-A997-3DB6-B227-234AF2E7CE59}"
  }
 }

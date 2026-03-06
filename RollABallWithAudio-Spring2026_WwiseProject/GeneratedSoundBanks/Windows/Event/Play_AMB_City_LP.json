@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{B1987ED9-67EF-4D78-81FC-24E8521CD9A7}",
     "Language": "SFX",
-    "Hash": "{72AE0314-3F39-9C37-46B0-302D490790E8}",
+    "Hash": "{D2E1B8FD-6D01-155E-74E9-75F5AD0E46A6}",
     "ObjectPath": "Play_AMB_City_LP",
     "ShortName": "Play_AMB_City_LP",
     "Path": "Event/Play_AMB_City_LP.bnk",
@@ -31,6 +31,7 @@
       "Name": "Play_AMB_City_LP",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_AMB_City_LP",
       "GUID": "{B1987ED9-67EF-4D78-81FC-24E8521CD9A7}",
+      "MaxAttenuation": "30",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -49,6 +50,6 @@
     ]
    }
   ],
-  "FileHash": "{C957F27A-9609-F467-FBC2-4CB055E64389}"
+  "FileHash": "{CD4C76F8-5F89-1AEF-C8A4-C8318B15EADF}"
  }
 }
